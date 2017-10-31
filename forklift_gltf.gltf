@@ -1,0 +1,197 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Microsoft GLTF Exporter 2.3.2.9"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5123,
+            "count": 27804,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 19821,
+            "type": "VEC3",
+            "max": [
+                1.0138100385665894,
+                4.767769813537598,
+                3.09879994392395
+            ],
+            "min": [
+                -1.0138100385665894,
+                0.0,
+                -3.09879994392395
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 19821,
+            "type": "VEC3"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteLength": 55608,
+            "byteOffset": 0,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteLength": 237852,
+            "byteOffset": 55608,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 237852,
+            "byteOffset": 293460,
+            "target": 34962
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 531312,
+            "uri": "1509474370897_buffer_high.bin"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {},
+            "name": "1552563889",
+            "extensions": {
+                "KHR_materials_pbrSpecularGlossiness": {
+                    "diffuseFactor": [
+                        0.800000011920929,
+                        0.800000011920929,
+                        0.800000011920929,
+                        1.0
+                    ],
+                    "specularFactor": [
+                        0.20000000298023225,
+                        0.20000000298023225,
+                        0.20000000298023225
+                    ],
+                    "glossinessFactor": 0.1882352977991104
+                }
+            }
+        },
+        {
+            "pbrMetallicRoughness": {},
+            "name": "1552563889",
+            "extensions": {
+                "KHR_materials_pbrSpecularGlossiness": {
+                    "diffuseFactor": [
+                        0.800000011920929,
+                        0.800000011920929,
+                        0.800000011920929,
+                        1.0
+                    ],
+                    "specularFactor": [
+                        0.20000000298023225,
+                        0.20000000298023225,
+                        0.20000000298023225
+                    ],
+                    "glossinessFactor": 0.1882352977991104
+                }
+            }
+        },
+        {
+            "pbrMetallicRoughness": {},
+            "name": "1552563889",
+            "extensions": {
+                "KHR_materials_pbrSpecularGlossiness": {
+                    "diffuseFactor": [
+                        0.800000011920929,
+                        0.800000011920929,
+                        0.800000011920929,
+                        1.0
+                    ],
+                    "specularFactor": [
+                        0.20000000298023225,
+                        0.20000000298023225,
+                        0.20000000298023225
+                    ],
+                    "glossinessFactor": 0.1882352977991104
+                },
+                "MSFT_lod": {
+                    "ids": [
+                        0,
+                        1
+                    ]
+                }
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "mesh_id3774689316",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 2,
+                        "POSITION": 1
+                    },
+                    "indices": 0,
+                    "material": 2,
+                    "mode": 4
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "children": [
+                2
+            ],
+            "matrix": [
+                0.009999999776482582,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.009999999776482582,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.009999999776482582,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "name": "root"
+        },
+        {
+            "mesh": 0,
+            "name": "mesh_id3774689316"
+        },
+        {
+            "children": [
+                1
+            ],
+            "name": "node_id3939245819"
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "scene": 0,
+    "extensionsUsed": [
+        "KHR_materials_pbrSpecularGlossiness",
+        "MSFT_lod"
+    ]
+}
